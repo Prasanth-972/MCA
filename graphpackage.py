@@ -1,0 +1,17 @@
+from graphics import circle,rectangle
+r=int(input("Enter the radius:"))
+circle.area(r)
+circle.perimeter(r)
+l=int(input("Enter the length of rectangle:"))
+b=int(input("Enter the breadth of rectangle:"))
+rectangle.area(l,b)
+rectangle.perimeter(l,b)
+from graphics.dgraphics import cuboid,sphere
+l1=int(input("Enter the length of cuboid:"))
+b1=int(input("Enter the breadth of cuboid:"))
+h1=int(input("Enter the height of cuboid:"))
+cuboid.areacuboid(l1,b1,h1)
+cuboid.perimeter(l1,b1,h1)
+r1=int(input("Enter the radius of sphere:"))
+sphere.area(r1)
+sphere.perimeter(r1)
